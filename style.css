@@ -1,0 +1,60 @@
+.heading{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase; 
+}
+.img{
+    float: right;
+}
+.icon{
+    float: left;
+    color: #2f5a78;
+}
+.intro{
+    background-color: #2f5a78;
+    color: rgb(0, 0, 0);
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+    background-color: #eeeeee;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2f5a78;
+    text-transform: uppercase;
+}
+.skills ul il .skill_prog{
+    width: 100%;
+    height: 50px;
+}
+.skill_name{
+    width: 150px;
+    text-transform: capitalize;
+}
+.skill_per{
+    margin-right: 50px;
+}
+.date{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+html{
+    background-image: url(304.png);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
