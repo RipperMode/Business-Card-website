@@ -1,7 +1,6 @@
-
 html{
     background-image: url(backgroung.jpg);
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -11,24 +10,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.intro{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-.icon{
-    color:rgb(254, 254, 254);
-    padding-bottom: 10px;
-}
 .social{
-    position: fixed;
+    position: absolute;
     left: 50%;
     bottom: 50px;
     transform: translate(-50%, 0%);
@@ -36,6 +19,21 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.intro{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon{
+    color:rgb(254, 254, 254);
+    padding-bottom: 10px;
 }
 .data{
     position: fixed;
