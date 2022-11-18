@@ -10,8 +10,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.social{
-    position: absolute;
+.social {
+    position: fixed;
     left: 50%;
     bottom: 50px;
     transform: translate(-50%, 0%);
@@ -19,6 +19,9 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.social :hover {
+    color:bisque
 }
 .intro{
     color: rgb(255, 255, 255);
@@ -45,4 +48,5 @@ html{
     align-items: center;
     justify-content: center;
     color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
